@@ -4,4 +4,4 @@ Pillow==9.5.0
 streamlit==1.26.0
 streamlit_drawable_canvas==0.9.3
 torch==2.1.0
-torchvision==0.15
+torchvision==0.16
