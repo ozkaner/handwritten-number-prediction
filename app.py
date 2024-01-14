@@ -27,7 +27,7 @@ class CNN(nn.Module):
         return x
 
 model = CNN()
-model.load_state_dict(torch.load('/Users/erenozkan/Desktop/github_1/handwritten-number-prediction/model_weights.pth'))
+model.load_state_dict(torch.load('model_weights.pth'))
 st.set_page_config(
     page_title="Handwritten Number Prediction",
     layout="wide",
